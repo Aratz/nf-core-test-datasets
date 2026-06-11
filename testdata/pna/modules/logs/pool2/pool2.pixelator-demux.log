@@ -1,0 +1,19 @@
+2026-06-11 08:55:31,397 MainProcess pixelator.common.utils INFO     Start pixelator demux 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:55:31,397 MainProcess pixelator.common.utils INFO     Input file(s) pool2.amplicon.fq.zst
+2026-06-11 08:55:31,398 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:55:31,398 MainProcess pixelator.common.utils INFO     Parameters:mismatches=1,output-chunk-reads=50000000,output-max-chunks=8,panel=proxiome-v2-immuno-155-v2.0,design=proxiome-v2,strategy=independent
+2026-06-11 08:55:31,398 MainProcess pixelator.common.utils DEBUG    Sanity checking pool2.amplicon.fq.zst
+2026-06-11 08:55:31,398 MainProcess pixelator.common.utils INFO     Found panel in config file: proxiome-v2-immuno-155-v2.0
+2026-06-11 08:55:31,398 MainProcess pixelator.pna.cli INFO     Correcting marker barcodes for input: pool2.amplicon.fq.zst
+2026-06-11 08:55:31,398 MainProcess demux INFO     Opening output file writer with 1 compression threads
+2026-06-11 08:55:31,404 MainProcess cutadapt.utils DEBUG    Opening 'demux/pool2.demux.passed.fq.zst', mode 'wb' (compression level 1, 1 threads) with xopen resulted in <_io.BufferedWriter>
+2026-06-11 08:55:31,404 MainProcess cutadapt.utils DEBUG    Opening 'demux/pool2.demux.failed.fq.zst', mode 'wb' (compression level 1, 1 threads) with xopen resulted in <_io.BufferedWriter>
+2026-06-11 08:55:31,414 MainProcess demux INFO     Correcting barcodes using 1 worker threads
+2026-06-11 08:55:36,731 MainProcess demux INFO     FINISHED: 00:00:05       154,971 reads @  34.3 us/read;   1.75 M reads/minute
+2026-06-11 08:55:39,138 MainProcess demux INFO     Demuxing with 1 worker threads
+2026-06-11 08:55:45,005 MainProcess demux INFO     FINISHED: 00:00:05       154,971 reads @  37.9 us/read;   1.58 M reads/minute
+2026-06-11 08:55:45,014 MainProcess pixelator.common.utils DEBUG    Using DuckDB memory limit: 11520.0 MB
+2026-06-11 08:55:45,015 MainProcess pixelator.common.utils DEBUG    Using DuckDB threads limit: 2
+2026-06-11 08:55:45,015 MainProcess pixelator.common.utils DEBUG    Using DuckDB temp directory: /tmp
+2026-06-11 08:55:45,057 MainProcess pixelator.common.utils DEBUG    Writing parameters file to demux/pool2.meta.json
+2026-06-11 08:55:45,058 MainProcess pixelator.common.utils INFO     Finished pixelator demux in 13.66s

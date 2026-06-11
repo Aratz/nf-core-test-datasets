@@ -1,0 +1,19 @@
+2026-06-11 08:56:17,336 MainProcess pixelator.common.utils INFO     Start pixelator combine-collapse 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:56:17,336 MainProcess pixelator.common.utils INFO     Parameters:parquet=('parquet/pool1.collapse.m2.part_000.parquet', 'parquet/pool1.collapse.m1.part_000.parquet'),report=('reports/pool1.collapse.m2.part_000.report.json', 'reports/pool1.collapse.m1.part_000.report.json'),parquet-pattern=None,report-pattern=None,memory=11520000000
+2026-06-11 08:56:17,337 MainProcess pixelator.common.utils DEBUG    Sanity checking parquet/pool1.collapse.m2.part_000.parquet
+2026-06-11 08:56:17,337 MainProcess pixelator.common.utils DEBUG    Sanity checking parquet/pool1.collapse.m1.part_000.parquet
+2026-06-11 08:56:17,338 MainProcess pixelator.common.utils DEBUG    Sanity checking reports/pool1.collapse.m2.part_000.report.json
+2026-06-11 08:56:17,338 MainProcess pixelator.common.utils DEBUG    Sanity checking reports/pool1.collapse.m1.part_000.report.json
+2026-06-11 08:56:17,338 MainProcess pixelator.pna.cli INFO     Using UMI1 parquet file: parquet/pool1.collapse.m1.part_000.parquet
+2026-06-11 08:56:17,338 MainProcess pixelator.pna.cli INFO     Using UMI2 parquet file: parquet/pool1.collapse.m2.part_000.parquet
+2026-06-11 08:56:17,338 MainProcess pixelator.common.utils DEBUG    Writing parameters file to collapse/pool1.meta.json
+2026-06-11 08:56:17,339 MainProcess pixelator.pna.cli INFO     Combining parquet files.
+2026-06-11 08:56:17,350 MainProcess pixelator.common.utils DEBUG    Using DuckDB memory limit: 11520.0 MB
+2026-06-11 08:56:17,350 MainProcess pixelator.common.utils DEBUG    Using DuckDB threads limit: 2
+2026-06-11 08:56:17,351 MainProcess pixelator.common.utils DEBUG    Using DuckDB temp directory: /tmp
+2026-06-11 08:56:17,353 MainProcess pixelator.pna.collapse.paired.combine_collapse INFO     Combining and sorting UMI1 parquet files
+2026-06-11 08:56:17,401 MainProcess pixelator.pna.collapse.paired.combine_collapse INFO     Combining and sorting UMI2 parquet files
+2026-06-11 08:56:17,446 MainProcess pixelator.pna.collapse.paired.combine_collapse INFO     Combining UMI1 and UMI2 data.
+2026-06-11 08:56:17,484 MainProcess pixelator.pna.collapse.paired.combine_collapse INFO     Calculating degree distributions.
+2026-06-11 08:56:17,501 MainProcess pixelator.pna.cli INFO     Combining report files.
+2026-06-11 08:56:17,504 MainProcess pixelator.common.utils INFO     Finished pixelator combine-collapse in 0.17s

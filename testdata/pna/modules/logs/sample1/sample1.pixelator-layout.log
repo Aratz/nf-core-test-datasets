@@ -1,0 +1,269 @@
+2026-06-11 08:57:49,593 MainProcess pixelator.common.utils INFO     Start pixelator layout 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:57:49,593 MainProcess pixelator.common.utils INFO     Input file sample1.post_analysis.pxl
+2026-06-11 08:57:49,594 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:57:49,594 MainProcess pixelator.common.utils INFO     Parameters:layout-algorithm=('wpmds_3d',),pmds-pivots=50,wpmds-k=5
+2026-06-11 08:57:49,594 MainProcess pixelator.common.utils DEBUG    Sanity checking sample1.post_analysis.pxl
+2026-06-11 08:57:49,594 MainProcess pixelator.pna.cli.layout INFO     Computing layout(s) for file sample1.post_analysis.pxl
+2026-06-11 08:57:49,594 MainProcess pixelator.common.utils DEBUG    Writing parameters file to layout/sample1.meta.json
+2026-06-11 08:57:49,774 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:49,774 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:49,775 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:49,778 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:49,779 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:49,784 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:49,785 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:49,785 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:49,786 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:49,786 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:49,787 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:49,793 MainProcess pixelator.pna.analysis_engine DEBUG    Using backend LokyBackend with 2 concurrent workers.
+2026-06-11 08:57:51,913 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:51,914 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:51,915 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:51,917 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:51,918 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:51,924 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:51,924 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:51,925 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:51,925 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:51,926 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:51,927 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:51,927 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:51,927 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:51,928 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:51,928 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:51,928 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:51,934 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:51,936 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:51,936 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:51,937 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:51,937 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:51,937 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:51,996 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:52,002 MainProcess pixelator.pna.analysis_engine DEBUG    Done   1 tasks      | elapsed:    2.2s
+2026-06-11 08:57:52,004 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:52,009 MainProcess pixelator.pna.analysis_engine DEBUG    Done   2 tasks      | elapsed:    2.2s
+2026-06-11 08:57:52,125 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on 89d31cbe92b25fa1
+2026-06-11 08:57:52,128 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on 41c9273e801df575
+2026-06-11 08:57:52,211 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,211 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,212 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,213 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,213 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,214 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,215 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,215 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,217 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,217 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,220 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,221 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,221 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,222 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,222 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,222 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,222 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,223 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,223 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,224 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,225 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,225 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,289 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:52,291 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:52,293 MainProcess pixelator.pna.analysis_engine DEBUG    Done   3 tasks      | elapsed:    2.5s
+2026-06-11 08:57:52,293 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on ec30c31bd7827611
+2026-06-11 08:57:52,294 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on 8d49b3f29b13355c
+2026-06-11 08:57:52,294 MainProcess pixelator.pna.analysis_engine DEBUG    Done   4 tasks      | elapsed:    2.5s
+2026-06-11 08:57:52,394 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,395 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,396 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,397 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,397 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,399 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,401 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,402 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,403 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,404 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,411 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,413 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,413 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,415 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,415 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,415 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,415 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,418 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,418 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,420 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,420 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,421 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,506 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:52,509 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:52,509 MainProcess pixelator.pna.analysis_engine DEBUG    Done   5 tasks      | elapsed:    2.7s
+2026-06-11 08:57:52,509 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on 3bad32d0ead8f977
+2026-06-11 08:57:52,513 MainProcess pixelator.pna.analysis_engine DEBUG    Done   6 tasks      | elapsed:    2.7s
+2026-06-11 08:57:52,513 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on 2906e6f49f424984
+2026-06-11 08:57:52,593 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,593 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,594 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,597 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,598 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,604 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,605 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,605 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,605 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,606 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,606 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,607 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,607 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,607 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,609 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,610 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,615 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,617 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,617 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,618 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,618 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,619 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,672 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:52,675 MainProcess pixelator.pna.analysis_engine DEBUG    Done   7 tasks      | elapsed:    2.9s
+2026-06-11 08:57:52,675 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on b8acfa6deae42db4
+2026-06-11 08:57:52,689 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:52,693 MainProcess pixelator.pna.analysis_engine DEBUG    Done   8 tasks      | elapsed:    2.9s
+2026-06-11 08:57:52,693 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on f513417dd587c4e5
+2026-06-11 08:57:52,759 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,759 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,760 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,763 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,764 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,770 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,771 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,772 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,772 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,773 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,773 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,788 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,788 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,788 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,791 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,791 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,796 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,797 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,797 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,798 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,798 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,798 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,838 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:52,842 MainProcess pixelator.pna.analysis_engine DEBUG    Done   9 tasks      | elapsed:    3.0s
+2026-06-11 08:57:52,842 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on f51d1505d1985977
+2026-06-11 08:57:52,862 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:52,866 MainProcess pixelator.pna.analysis_engine DEBUG    Done  10 tasks      | elapsed:    3.1s
+2026-06-11 08:57:52,866 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on bd6491ab44970711
+2026-06-11 08:57:52,935 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,935 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,936 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,939 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,939 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,944 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,945 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,945 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,946 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,946 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,947 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:52,967 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:52,967 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,967 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,970 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:52,970 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:52,974 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:52,976 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:52,976 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,976 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:52,977 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:52,977 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,014 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:53,018 MainProcess pixelator.pna.analysis_engine DEBUG    Done  11 tasks      | elapsed:    3.2s
+2026-06-11 08:57:53,018 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on 871c0fa2ebd5dc54
+2026-06-11 08:57:53,042 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:53,046 MainProcess pixelator.pna.analysis_engine DEBUG    Done  12 tasks      | elapsed:    3.3s
+2026-06-11 08:57:53,046 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on 07aa8e747d3e9f42
+2026-06-11 08:57:53,097 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:53,097 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,098 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,101 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,102 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,108 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:53,111 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:53,112 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,113 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:53,114 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,114 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,137 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:53,137 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,138 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,142 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,143 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,149 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:53,150 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:53,151 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,152 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:53,152 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,152 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,173 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:53,176 MainProcess pixelator.pna.analysis_engine DEBUG    Done  13 tasks      | elapsed:    3.4s
+2026-06-11 08:57:53,176 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on 9154b5f5050c2cd7
+2026-06-11 08:57:53,226 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:53,230 MainProcess pixelator.pna.analysis_engine DEBUG    Done  14 tasks      | elapsed:    3.4s
+2026-06-11 08:57:53,230 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on 62947ac47d077a33
+2026-06-11 08:57:53,267 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:53,267 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,268 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,272 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,272 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,278 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:53,280 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:53,280 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,281 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:53,281 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,281 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,314 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:53,314 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,315 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,317 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,317 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,321 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:53,322 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:53,322 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,323 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:53,323 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,323 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,358 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:53,362 MainProcess pixelator.pna.analysis_engine DEBUG    Done  15 tasks      | elapsed:    3.6s
+2026-06-11 08:57:53,362 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running layout on 6a45c696129a6bd3
+2026-06-11 08:57:53,382 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:53,386 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running layout on 64ec5d0b0fdeb03e
+2026-06-11 08:57:53,386 MainProcess pixelator.pna.analysis_engine DEBUG    Done  16 out of  18 | elapsed:    3.6s remaining:    0.4s
+2026-06-11 08:57:53,450 LokyProcess-2 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:53,451 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,451 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,453 LokyProcess-2 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,454 LokyProcess-2 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,458 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:53,459 LokyProcess-2 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:53,459 LokyProcess-2 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,460 LokyProcess-2 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:53,460 LokyProcess-2 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,460 LokyProcess-2 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,473 LokyProcess-1 pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:53,473 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,474 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,476 LokyProcess-1 pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:53,476 LokyProcess-1 pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:53,481 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:53,482 LokyProcess-1 pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:53,483 LokyProcess-1 pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,483 LokyProcess-1 pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:53,483 LokyProcess-1 pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:53,484 LokyProcess-1 pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:53,533 LokyProcess-2 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.03 seconds
+2026-06-11 08:57:53,549 LokyProcess-1 pixelator.pna.graph DEBUG    Layout computation using wpmds_3d took 0.02 seconds
+2026-06-11 08:57:53,553 MainProcess pixelator.pna.analysis_engine DEBUG    Done  18 out of  18 | elapsed:    3.8s finished
+2026-06-11 08:57:53,660 MainProcess pixelator.common.utils INFO     Finished pixelator layout in 4.07s

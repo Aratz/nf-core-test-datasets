@@ -1,0 +1,227 @@
+2026-06-11 08:56:48,686 MainProcess pixelator.common.utils INFO     Start pixelator sample-calling 0.28.0
+2026-06-11 08:56:48,686 MainProcess pixelator.common.utils INFO     Input file pool1.denoised_graph.pxl
+2026-06-11 08:56:48,687 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:56:48,687 MainProcess pixelator.common.utils INFO     Parameters:samplesheet=samplesheet_proxiome_v2.csv,remove-incompatible=True,save-undetermined=False,confidence-threshold=0.9
+2026-06-11 08:56:48,687 MainProcess pixelator.common.utils DEBUG    Sanity checking pool1.denoised_graph.pxl
+2026-06-11 08:56:48,730 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from PNAPixelDataset object
+2026-06-11 08:56:48,796 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:48,796 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:48,797 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:48,800 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:48,800 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:48,805 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 40 components and 182 markers
+2026-06-11 08:56:48,807 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:48,808 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 40 components and 182 markers
+2026-06-11 08:56:48,809 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:48,809 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 40 components and 182 markers
+2026-06-11 08:56:48,809 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:48,811 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:48,812 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:48,815 MainProcess pixelator.common.utils DEBUG    Antibody panel from PNAPixelDataset created
+2026-06-11 08:56:48,922 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:48,922 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:48,923 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:48,925 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:48,926 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:48,929 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 40 components and 182 markers
+2026-06-11 08:56:48,931 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:48,931 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 40 components and 182 markers
+2026-06-11 08:56:48,932 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:48,932 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 40 components and 182 markers
+2026-06-11 08:56:48,932 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:48,947 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from PNAPixelDataset object
+2026-06-11 08:56:48,948 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:48,949 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:48,951 MainProcess pixelator.common.utils DEBUG    Antibody panel from PNAPixelDataset created
+2026-06-11 08:56:48,953 MainProcess pixelator.pna.sample_calling.sample_calling INFO     Running sample calling for sample: sample1
+2026-06-11 08:56:48,986 MainProcess pixelator.pna.analysis_engine DEBUG    Using backend LokyBackend with 2 concurrent workers.
+2026-06-11 08:56:51,109 MainProcess pixelator.pna.analysis_engine DEBUG    Done   1 tasks      | elapsed:    2.1s
+2026-06-11 08:56:51,161 MainProcess pixelator.pna.analysis_engine DEBUG    Done   2 tasks      | elapsed:    2.2s
+2026-06-11 08:56:51,254 MainProcess pixelator.pna.analysis_engine DEBUG    Done   3 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,262 MainProcess pixelator.pna.analysis_engine DEBUG    Done   4 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,269 MainProcess pixelator.pna.analysis_engine DEBUG    Done   5 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,278 MainProcess pixelator.pna.analysis_engine DEBUG    Done   6 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,285 MainProcess pixelator.pna.analysis_engine DEBUG    Done   7 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,293 MainProcess pixelator.pna.analysis_engine DEBUG    Done   8 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,299 MainProcess pixelator.pna.analysis_engine DEBUG    Done   9 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,307 MainProcess pixelator.pna.analysis_engine DEBUG    Done  10 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,307 MainProcess pixelator.pna.analysis_engine DEBUG    Done  11 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,315 MainProcess pixelator.pna.analysis_engine DEBUG    Done  12 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,317 MainProcess pixelator.pna.analysis_engine DEBUG    Done  13 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,325 MainProcess pixelator.pna.analysis_engine DEBUG    Done  14 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,326 MainProcess pixelator.pna.analysis_engine DEBUG    Done  15 tasks      | elapsed:    2.3s
+2026-06-11 08:56:51,332 MainProcess pixelator.pna.analysis_engine DEBUG    Done  16 out of  18 | elapsed:    2.3s remaining:    0.3s
+2026-06-11 08:56:51,340 MainProcess pixelator.pna.analysis_engine DEBUG    Done  18 out of  18 | elapsed:    2.4s finished
+2026-06-11 08:56:51,457 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:51,457 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:51,458 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:51,461 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:51,462 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:51,466 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 40 components and 182 markers
+2026-06-11 08:56:51,467 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:51,470 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 182 markers
+2026-06-11 08:56:51,471 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:51,473 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 182 markers
+2026-06-11 08:56:51,474 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:51,478 MainProcess pixelator.pna.anndata DEBUG    Constructing counts matrix.
+2026-06-11 08:56:51,550 MainProcess pixelator.pna.anndata DEBUG    Computing component metrics.
+2026-06-11 08:56:51,567 MainProcess pixelator.pna.anndata DEBUG    Computing antibody metrics.
+2026-06-11 08:56:51,569 MainProcess pixelator.pna.anndata DEBUG    Building AnnData instance.
+2026-06-11 08:56:51,574 MainProcess root DEBUG    Calling aggregates based on tau specificity scores
+2026-06-11 08:56:51,578 MainProcess pixelator.common.annotate.aggregates INFO     Found 1 aggregates. This is 6% of the components
+2026-06-11 08:56:51,735 MainProcess pixelator.pna.sample_calling.sample_calling INFO     Running sample calling for sample: pool1_undetermined
+2026-06-11 08:56:51,860 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:51,860 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:51,861 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:51,866 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:51,867 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:51,872 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 40 components and 182 markers
+2026-06-11 08:56:51,873 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:51,877 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 2 components and 182 markers
+2026-06-11 08:56:51,878 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:51,879 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 2 components and 182 markers
+2026-06-11 08:56:51,879 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:51,883 MainProcess pixelator.pna.anndata DEBUG    Constructing counts matrix.
+2026-06-11 08:56:51,923 MainProcess pixelator.pna.anndata DEBUG    Computing component metrics.
+2026-06-11 08:56:51,937 MainProcess pixelator.pna.anndata DEBUG    Computing antibody metrics.
+2026-06-11 08:56:51,939 MainProcess pixelator.pna.anndata DEBUG    Building AnnData instance.
+2026-06-11 08:56:51,943 MainProcess root DEBUG    Calling aggregates based on tau specificity scores
+2026-06-11 08:56:51,946 MainProcess pixelator.common.annotate.aggregates INFO     Found 0 aggregates. This is 0% of the components
+2026-06-11 08:56:52,071 MainProcess pixelator.pna.sample_calling.sample_calling INFO     Running sample calling for sample: sample2
+2026-06-11 08:56:52,073 MainProcess pixelator.pna.analysis_engine DEBUG    Using backend LokyBackend with 2 concurrent workers.
+2026-06-11 08:56:52,113 MainProcess pixelator.pna.analysis_engine DEBUG    Done   1 tasks      | elapsed:    0.0s
+2026-06-11 08:56:52,113 MainProcess pixelator.pna.analysis_engine DEBUG    Batch computation too fast (0.016622304916381836s.) Setting batch_size=2.
+2026-06-11 08:56:52,132 MainProcess pixelator.pna.analysis_engine DEBUG    Done   2 tasks      | elapsed:    0.1s
+2026-06-11 08:56:52,132 MainProcess pixelator.pna.analysis_engine DEBUG    Done   3 tasks      | elapsed:    0.1s
+2026-06-11 08:56:52,157 MainProcess pixelator.pna.analysis_engine DEBUG    Done   4 tasks      | elapsed:    0.1s
+2026-06-11 08:56:52,166 MainProcess pixelator.pna.analysis_engine DEBUG    Done   6 tasks      | elapsed:    0.1s
+2026-06-11 08:56:52,166 MainProcess pixelator.pna.analysis_engine DEBUG    Batch computation too fast (0.03421306610107422s.) Setting batch_size=4.
+2026-06-11 08:56:52,199 MainProcess pixelator.pna.analysis_engine DEBUG    Done   8 tasks      | elapsed:    0.1s
+2026-06-11 08:56:52,200 MainProcess pixelator.pna.analysis_engine DEBUG    Done  10 tasks      | elapsed:    0.1s
+2026-06-11 08:56:52,205 MainProcess pixelator.pna.analysis_engine DEBUG    Done  12 out of  20 | elapsed:    0.1s remaining:    0.1s
+2026-06-11 08:56:52,242 MainProcess pixelator.pna.analysis_engine DEBUG    Done  16 out of  20 | elapsed:    0.2s remaining:    0.0s
+2026-06-11 08:56:52,250 MainProcess pixelator.pna.analysis_engine DEBUG    Done  20 out of  20 | elapsed:    0.2s finished
+2026-06-11 08:56:52,399 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:52,399 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:52,400 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:52,405 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:52,406 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:52,412 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 40 components and 182 markers
+2026-06-11 08:56:52,414 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:52,417 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 20 components and 182 markers
+2026-06-11 08:56:52,419 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:52,421 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 20 components and 182 markers
+2026-06-11 08:56:52,421 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:52,427 MainProcess pixelator.pna.anndata DEBUG    Constructing counts matrix.
+2026-06-11 08:56:52,499 MainProcess pixelator.pna.anndata DEBUG    Computing component metrics.
+2026-06-11 08:56:52,517 MainProcess pixelator.pna.anndata DEBUG    Computing antibody metrics.
+2026-06-11 08:56:52,519 MainProcess pixelator.pna.anndata DEBUG    Building AnnData instance.
+2026-06-11 08:56:52,524 MainProcess root DEBUG    Calling aggregates based on tau specificity scores
+2026-06-11 08:56:52,527 MainProcess pixelator.common.annotate.aggregates INFO     Found 0 aggregates. This is 0% of the components
+2026-06-11 08:56:52,723 MainProcess pixelator.common.utils DEBUG    Writing parameters file to sample_calling/sample1.meta.json
+2026-06-11 08:56:52,793 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:52,793 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:52,794 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:52,798 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:52,799 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:52,803 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:56:52,805 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:52,805 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:56:52,806 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:52,807 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:56:52,807 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:52,872 MainProcess pixelator.common.utils DEBUG    Writing parameters file to sample_calling/pool1_undetermined.meta.json
+2026-06-11 08:56:52,960 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:52,961 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:52,962 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:52,967 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:52,968 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:52,975 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 2 components and 158 markers
+2026-06-11 08:56:52,977 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:52,978 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:52,979 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:52,979 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:52,980 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:53,064 MainProcess pixelator.common.utils DEBUG    Writing parameters file to sample_calling/sample2.meta.json
+2026-06-11 08:56:53,140 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:53,140 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,141 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,145 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,145 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,150 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 20 components and 158 markers
+2026-06-11 08:56:53,153 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:53,153 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 20 components and 158 markers
+2026-06-11 08:56:53,154 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:53,154 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 20 components and 158 markers
+2026-06-11 08:56:53,154 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:53,590 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:53,590 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,591 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,595 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,596 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,599 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,600 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,603 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,603 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,611 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 40 components and 158 markers
+2026-06-11 08:56:53,613 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:53,613 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 40 components and 158 markers
+2026-06-11 08:56:53,614 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:53,615 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 40 components and 158 markers
+2026-06-11 08:56:53,615 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:53,748 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:53,749 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,750 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,753 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,753 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,758 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 2 components and 158 markers
+2026-06-11 08:56:53,759 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:53,759 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:53,760 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:53,760 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:53,760 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:53,867 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:53,867 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,868 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,872 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:53,873 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:53,879 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 2 components and 158 markers
+2026-06-11 08:56:53,881 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:53,881 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:53,882 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:53,883 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:53,883 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:54,012 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:54,012 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:54,013 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:54,018 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:54,019 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:54,024 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:56:54,027 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:54,028 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:56:54,029 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:54,029 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:56:54,029 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:54,140 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:54,140 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:54,141 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:54,145 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:54,145 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:54,150 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 20 components and 158 markers
+2026-06-11 08:56:54,152 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:54,152 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 20 components and 158 markers
+2026-06-11 08:56:54,154 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:54,154 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 20 components and 158 markers
+2026-06-11 08:56:54,154 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:54,258 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:56:54,258 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:54,259 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:54,262 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:56:54,263 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:56:54,267 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 2 components and 158 markers
+2026-06-11 08:56:54,268 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:56:54,269 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:54,270 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:56:54,270 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 2 components and 158 markers
+2026-06-11 08:56:54,270 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:56:54,272 MainProcess pixelator.common.utils INFO     Finished pixelator sample_calling_cli in 5.59s

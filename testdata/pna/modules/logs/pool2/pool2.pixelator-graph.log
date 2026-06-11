@@ -1,0 +1,81 @@
+2026-06-11 08:56:14,546 MainProcess pixelator.common.utils INFO     Start pixelator graph 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:56:14,547 MainProcess pixelator.common.utils INFO     Input file(s) pool2.collapse.parquet
+2026-06-11 08:56:14,547 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:56:14,547 MainProcess pixelator.common.utils INFO     Parameters:multiplet-recovery=True,edge-cycle-verification=True,initial-stage-leiden-resolution=1.0,refinement-stage-leiden-resolution=0.01,min-count=1,max-refinement-recursion-depth=3,initial-stage-max-edges-to-remove=10,refinement-stage-max-edges-to-remove=10,initial-stage-max-edges-to-remove-relative=None,refinement-stage-max-edges-to-remove-relative=None,component-size-max-threshold=None,component-size-min-threshold=100,panel=proxiome-v2-immuno-155-v2.0
+2026-06-11 08:56:14,548 MainProcess pixelator.common.utils DEBUG    Sanity checking pool2.collapse.parquet
+2026-06-11 08:56:14,548 MainProcess pixelator.pna.cli INFO     Trying to identify components from file pool2.collapse.parquet
+2026-06-11 08:56:14,549 MainProcess pixelator.common.utils DEBUG    Writing parameters file to graph/pool2.meta.json
+2026-06-11 08:56:14,549 MainProcess pixelator.common.utils INFO     Found panel in config file: proxiome-v2-immuno-155-v2.0
+2026-06-11 08:56:14,551 MainProcess pixelator.pna.cli INFO     Starting component finding process.
+2026-06-11 08:56:14,569 MainProcess pixelator.pna.cli INFO     Removing clashing UMIs.
+2026-06-11 08:56:14,640 MainProcess pixelator.pna.cli INFO     Filtering edgelist by read count.
+2026-06-11 08:56:14,684 MainProcess pixelator.pna.cli INFO     Starting component finding process.
+2026-06-11 08:56:14,719 MainProcess pixelator.pna.cli INFO     Running FLP + Leiden native step
+2026-06-11 08:56:14,719 MainProcess pixelator_core.common.io INFO     Creating UMI mapping...
+2026-06-11 08:56:14,721 MainProcess pixelator_core.common.io INFO     Creating graph...
+2026-06-11 08:56:14,723 MainProcess pixelator_core.common.io INFO     Graph created with 11992 nodes, 22168 edge entries, total edge weight 22168
+2026-06-11 08:56:14,726 MainProcess pixelator_core.hybrid_community_detection.algorithm DEBUG    Graph properties pre-aggregation: GraphProperties { node_count: 11992, edge_weight_sum: 22168, n_connected_components: 1, fraction_in_largest_component: 1.0, stranded_nodes: 0, component_size_distribution: {11992: 1} }
+2026-06-11 08:56:14,726 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Starting epoch 1...
+2026-06-11 08:56:14,726 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Starting label propagation...
+2026-06-11 08:56:14,728 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Label propagation finished after 30092 iterations.
+2026-06-11 08:56:14,728 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Cleaning partitions by splitting disconnected components...
+2026-06-11 08:56:14,730 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Starting epoch 2...
+2026-06-11 08:56:14,730 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Starting label propagation...
+2026-06-11 08:56:14,730 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Label propagation finished after 13895 iterations.
+2026-06-11 08:56:14,730 MainProcess pixelator_core.fast_label_propagation.algorithm INFO     Cleaning partitions by splitting disconnected components...
+2026-06-11 08:56:14,732 MainProcess pixelator_core.hybrid_community_detection.algorithm DEBUG    Completed FLP. 1172 partitions found.
+2026-06-11 08:56:14,734 MainProcess pixelator_core.leiden.algorithm DEBUG    Starting Leiden algorithm
+2026-06-11 08:56:14,734 MainProcess pixelator_core.leiden.algorithm DEBUG    Moving nodes fast (iteration 0)
+2026-06-11 08:56:14,735 MainProcess pixelator_core.leiden.algorithm DEBUG    it=0, delta=4836.237098520387, #partitions=166, #nodes=1172
+2026-06-11 08:56:14,735 MainProcess pixelator_core.leiden.algorithm DEBUG    Aggregating graph (iteration 0)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Normalizing partition (iteration 0)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Moving nodes fast (iteration 1)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    it=1, delta=564.3651208949839, #partitions=110, #nodes=405
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Aggregating graph (iteration 1)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Normalizing partition (iteration 1)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Moving nodes fast (iteration 2)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    it=2, delta=464.62531577048014, #partitions=56, #nodes=147
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Aggregating graph (iteration 2)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Normalizing partition (iteration 2)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Moving nodes fast (iteration 3)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    it=3, delta=43.79174936845905, #partitions=44, #nodes=59
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Aggregating graph (iteration 3)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Normalizing partition (iteration 3)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Moving nodes fast (iteration 4)
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    it=4, delta=0, #partitions=44, #nodes=44
+2026-06-11 08:56:14,736 MainProcess pixelator_core.leiden.algorithm DEBUG    Getting statistics
+2026-06-11 08:56:14,737 MainProcess pixelator_core.leiden.algorithm DEBUG    Leiden algorithm finished
+2026-06-11 08:56:14,737 MainProcess pixelator_core.hybrid_community_detection.algorithm DEBUG    Completed Leiden. 44 partitions found. Final quality: 20900.697401660054.
+ Graph Statistics: PartitionedGraphStatistics { current_edge_weight_sum: 22168, original_node_count: 11992, fraction_nodes_in_largest_partition: 0.03227151434289526, stranded_nodes: 11992, crossing_edge_weight_sum: 735, partition_node_counts: "[[387, 375, 365, 362, 360],...; 44]", quality: 20900.697401660054 }
+2026-06-11 08:56:14,737 MainProcess pixelator_core_py DEBUG    Writing data to parquet /tmp/tmpzf0cutzs/partitioned_edgelist.parquet
+2026-06-11 08:56:14,743 MainProcess pixelator.pna.cli DEBUG    Populating component statistics from hybrid detection.
+2026-06-11 08:56:14,743 MainProcess pixelator.pna.cli INFO     Writing hive partitioned edgelist without small components.
+2026-06-11 08:56:14,743 MainProcess pixelator.pna.graph.component_recovery_utils DEBUG    Filtering out small components from edge list
+2026-06-11 08:56:14,821 MainProcess pixelator.pna.cli INFO     Starting multiplet recovery using Leiden algorithm.
+2026-06-11 08:56:14,822 MainProcess pixelator.pna.cli INFO     Starting refinement stages on decoarsened edgelist.
+2026-06-11 08:56:14,860 MainProcess pixelator.pna.cli DEBUG    get_single_thread_duckdb_config: DuckDB memory_limit='12.0 GiB' -> 12884901888 bytes total, n_threads=2, per_thread=6442450944 bytes
+2026-06-11 08:56:14,860 MainProcess pixelator.pna.cli DEBUG    get_single_thread_duckdb_config: resulting config {'memory_limit': '6442450944B', 'threads': '1'}
+2026-06-11 08:56:18,528 MainProcess pixelator.pna.cli DEBUG    No more components to refine, will break the refinement loop.
+2026-06-11 08:56:18,529 MainProcess pixelator.pna.cli INFO     Refinement stages completed in 3.71 seconds.
+2026-06-11 08:56:18,535 MainProcess pixelator.pna.cli DEBUG    Writing unified edgelist.
+2026-06-11 08:56:18,541 MainProcess pixelator.pna.cli INFO     Starting edge cycle verification.
+2026-06-11 08:56:18,541 MainProcess pixelator.pna.graph.cycle_analysis INFO     Starting removal of no-cycle edges
+2026-06-11 08:56:18,604 MainProcess pixelator.pna.graph.cycle_analysis INFO     Processing 0 components in parallel using 2 threads.
+2026-06-11 08:56:18,607 MainProcess pixelator.pna.graph.cycle_analysis INFO     Total removed edges in cycle verification: 0
+2026-06-11 08:56:18,629 MainProcess pixelator.pna.cli INFO     Edge cycle verification completed in 0.09 seconds.
+2026-06-11 08:56:18,629 MainProcess pixelator.pna.cli INFO     Filtering connected components by size.
+2026-06-11 08:56:18,645 MainProcess pixelator.pna.graph.component_recovery_utils DEBUG    Filtering components by hard size thresholds, min: 100, max: None
+2026-06-11 08:56:18,646 MainProcess pixelator.pna.graph.component_recovery_utils INFO     44 left after filtering.
+2026-06-11 08:56:18,664 MainProcess pixelator.pna.cli INFO     Mapping UMIs to original names.
+2026-06-11 08:56:18,696 MainProcess pixelator.pna.cli INFO     Creating component names from UMIs.
+2026-06-11 08:56:18,779 MainProcess pixelator.pna.cli INFO     Writing pxl file to graph/pool2.graph.pxl
+2026-06-11 08:56:18,824 MainProcess pixelator.pna.cli DEBUG    Counting molecules
+2026-06-11 08:56:18,826 MainProcess pixelator.pna.cli DEBUG    Building edgelist from anndata
+2026-06-11 08:56:18,826 MainProcess pixelator.pna.anndata DEBUG    Constructing counts matrix.
+2026-06-11 08:56:18,875 MainProcess pixelator.pna.anndata DEBUG    Computing component metrics.
+2026-06-11 08:56:18,889 MainProcess pixelator.pna.anndata DEBUG    Computing antibody metrics.
+2026-06-11 08:56:18,890 MainProcess pixelator.pna.anndata DEBUG    Building AnnData instance.
+2026-06-11 08:56:18,893 MainProcess root DEBUG    Calling aggregates based on tau specificity scores
+2026-06-11 08:56:18,895 MainProcess pixelator.common.annotate.aggregates INFO     Found 0 aggregates. This is 0% of the components
+2026-06-11 08:56:18,898 MainProcess pixelator.pna.cli DEBUG    Building pxl file
+2026-06-11 08:56:19,014 MainProcess pixelator.common.utils INFO     Finished pixelator graph in 4.47s

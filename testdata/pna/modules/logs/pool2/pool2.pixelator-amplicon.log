@@ -1,0 +1,12 @@
+2026-06-11 08:55:12,338 MainProcess pixelator.common.utils INFO     Start pixelator amplicon 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:55:12,338 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:55:12,339 MainProcess pixelator.common.utils INFO     Parameters:fastq1=pool2_R1.fastq.gz,fastq-2=pool2_R2.fastq.gz,design=proxiome-v2,remove-polyg=True,quality-cutoff=20,skip-input-checks=False,force-run=False
+2026-06-11 08:55:12,339 MainProcess pixelator.common.utils DEBUG    Sanity checking pool2_R1.fastq.gz
+2026-06-11 08:55:12,339 MainProcess pixelator.common.utils DEBUG    Sanity checking pool2_R2.fastq.gz
+2026-06-11 08:55:12,340 MainProcess pixelator.common.utils DEBUG    Writing parameters file to amplicon/pool2.meta.json
+2026-06-11 08:55:12,340 MainProcess pixelator.pna.cli INFO     Creating amplicon for pool2_R1.fastq.gz,pool2_R2.fastq.gz
+2026-06-11 08:55:12,340 MainProcess root INFO     Opening output file writer with 1 compression threads
+2026-06-11 08:55:12,346 MainProcess cutadapt.utils DEBUG    Opening 'amplicon/pool2.amplicon.fq.zst', mode 'wb' (compression level 1, 1 threads) with xopen resulted in <_io.BufferedWriter>
+2026-06-11 08:55:12,346 MainProcess root INFO     Running pipeline with 1 worker threads
+2026-06-11 08:55:24,243 MainProcess pixelator.pna.amplicon.process INFO     FINISHED: 00:00:11       155,203 reads @  76.7 us/read;   0.78 M reads/minute
+2026-06-11 08:55:24,270 MainProcess pixelator.common.utils INFO     Finished pixelator amplicon in 11.93s

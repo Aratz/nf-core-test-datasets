@@ -1,0 +1,172 @@
+2026-06-11 08:57:03,897 MainProcess pixelator.common.utils INFO     Start pixelator analysis 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:57:03,898 MainProcess pixelator.common.utils INFO     Input file(s) sample2.dehashed.pxl
+2026-06-11 08:57:03,898 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:57:03,898 MainProcess pixelator.common.utils INFO     Parameters:compute-proximity=True,proximity-nbr-of-permutations=100,compute-k-cores=True,compute-svd-var-explained=True,svd-nbr-of-pivots=50
+2026-06-11 08:57:03,899 MainProcess pixelator.common.utils DEBUG    Sanity checking sample2.dehashed.pxl
+2026-06-11 08:57:03,899 MainProcess pixelator.pna.cli.analysis INFO     Proximity score computation is activated
+2026-06-11 08:57:03,899 MainProcess pixelator.pna.cli.analysis INFO     K-core computation is activated
+2026-06-11 08:57:03,899 MainProcess pixelator.pna.cli.analysis INFO     SVD variance explained computation is activated
+2026-06-11 08:57:03,967 MainProcess pixelator.pna.analysis_engine DEBUG    Using backend LokyBackend with 2 concurrent workers.
+2026-06-11 08:57:04,284 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:04,284 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:04,286 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:04,288 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:04,289 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:04,294 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 20 components and 158 markers
+2026-06-11 08:57:04,296 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:08,883 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on 8405350dab99944b
+2026-06-11 08:57:08,891 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 8405350dab99944b
+2026-06-11 08:57:08,899 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on 8405350dab99944b
+2026-06-11 08:57:08,908 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 8405350dab99944b
+2026-06-11 08:57:08,935 MainProcess pixelator.pna.analysis_engine DEBUG    Done   1 tasks      | elapsed:    5.0s
+2026-06-11 08:57:09,104 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on ac1ca8b6eed700ed
+2026-06-11 08:57:09,107 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on 3e12f7d6b1f4e5de
+2026-06-11 08:57:09,111 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component ac1ca8b6eed700ed
+2026-06-11 08:57:09,118 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on ac1ca8b6eed700ed
+2026-06-11 08:57:09,124 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component ac1ca8b6eed700ed
+2026-06-11 08:57:09,138 MainProcess pixelator.pna.analysis_engine DEBUG    Done   2 tasks      | elapsed:    5.2s
+2026-06-11 08:57:09,285 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on 417b36888a11e2f4
+2026-06-11 08:57:11,085 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on 3e12f7d6b1f4e5de
+2026-06-11 08:57:11,090 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 3e12f7d6b1f4e5de
+2026-06-11 08:57:11,095 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on 3e12f7d6b1f4e5de
+2026-06-11 08:57:11,099 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 3e12f7d6b1f4e5de
+2026-06-11 08:57:11,112 MainProcess pixelator.pna.analysis_engine DEBUG    Done   3 tasks      | elapsed:    7.1s
+2026-06-11 08:57:11,114 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on 0751a50de8743845
+2026-06-11 08:57:11,220 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on 417b36888a11e2f4
+2026-06-11 08:57:11,226 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 417b36888a11e2f4
+2026-06-11 08:57:11,233 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on 417b36888a11e2f4
+2026-06-11 08:57:11,239 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 417b36888a11e2f4
+2026-06-11 08:57:11,256 MainProcess pixelator.pna.analysis_engine DEBUG    Done   4 tasks      | elapsed:    7.3s
+2026-06-11 08:57:11,258 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on b37a55de6f45b24c
+2026-06-11 08:57:13,180 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on 0751a50de8743845
+2026-06-11 08:57:13,188 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 0751a50de8743845
+2026-06-11 08:57:13,198 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on 0751a50de8743845
+2026-06-11 08:57:13,205 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 0751a50de8743845
+2026-06-11 08:57:13,228 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on c0ad7fb6fcbb892e
+2026-06-11 08:57:13,226 MainProcess pixelator.pna.analysis_engine DEBUG    Done   5 tasks      | elapsed:    9.3s
+2026-06-11 08:57:13,275 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on b37a55de6f45b24c
+2026-06-11 08:57:13,282 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component b37a55de6f45b24c
+2026-06-11 08:57:13,289 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on b37a55de6f45b24c
+2026-06-11 08:57:13,295 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component b37a55de6f45b24c
+2026-06-11 08:57:13,352 MainProcess pixelator.pna.analysis_engine DEBUG    Done   6 tasks      | elapsed:    9.4s
+2026-06-11 08:57:13,356 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on df00516b9283c569
+2026-06-11 08:57:15,186 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on df00516b9283c569
+2026-06-11 08:57:15,192 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component df00516b9283c569
+2026-06-11 08:57:15,198 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on df00516b9283c569
+2026-06-11 08:57:15,204 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component df00516b9283c569
+2026-06-11 08:57:15,221 MainProcess pixelator.pna.analysis_engine DEBUG    Done   7 tasks      | elapsed:   11.3s
+2026-06-11 08:57:15,224 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on c526a8504c9c412b
+2026-06-11 08:57:15,247 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on c0ad7fb6fcbb892e
+2026-06-11 08:57:15,253 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component c0ad7fb6fcbb892e
+2026-06-11 08:57:15,259 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on c0ad7fb6fcbb892e
+2026-06-11 08:57:15,264 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component c0ad7fb6fcbb892e
+2026-06-11 08:57:15,370 MainProcess pixelator.pna.analysis_engine DEBUG    Done   8 tasks      | elapsed:   11.4s
+2026-06-11 08:57:15,371 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on f61161f643d42807
+2026-06-11 08:57:17,347 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on c526a8504c9c412b
+2026-06-11 08:57:17,354 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component c526a8504c9c412b
+2026-06-11 08:57:17,361 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on c526a8504c9c412b
+2026-06-11 08:57:17,368 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component c526a8504c9c412b
+2026-06-11 08:57:17,381 MainProcess pixelator.pna.analysis_engine DEBUG    Done   9 tasks      | elapsed:   13.4s
+2026-06-11 08:57:17,383 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on 7b0d2b98fc14fe43
+2026-06-11 08:57:17,398 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on f61161f643d42807
+2026-06-11 08:57:17,403 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component f61161f643d42807
+2026-06-11 08:57:17,409 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on f61161f643d42807
+2026-06-11 08:57:17,418 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component f61161f643d42807
+2026-06-11 08:57:17,440 MainProcess pixelator.pna.analysis_engine DEBUG    Done  10 tasks      | elapsed:   13.5s
+2026-06-11 08:57:17,442 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on 96b35611548ec536
+2026-06-11 08:57:19,392 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on 96b35611548ec536
+2026-06-11 08:57:19,397 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 96b35611548ec536
+2026-06-11 08:57:19,398 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on 7b0d2b98fc14fe43
+2026-06-11 08:57:19,402 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on 96b35611548ec536
+2026-06-11 08:57:19,404 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 7b0d2b98fc14fe43
+2026-06-11 08:57:19,406 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 96b35611548ec536
+2026-06-11 08:57:19,410 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on 7b0d2b98fc14fe43
+2026-06-11 08:57:19,417 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 7b0d2b98fc14fe43
+2026-06-11 08:57:19,419 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on 39341faeea2bb9c2
+2026-06-11 08:57:19,416 MainProcess pixelator.pna.analysis_engine DEBUG    Done  11 tasks      | elapsed:   15.4s
+2026-06-11 08:57:19,695 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on b06a53fd9ff833e8
+2026-06-11 08:57:19,697 MainProcess pixelator.pna.analysis_engine DEBUG    Done  12 tasks      | elapsed:   15.7s
+2026-06-11 08:57:21,963 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on 39341faeea2bb9c2
+2026-06-11 08:57:21,973 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 39341faeea2bb9c2
+2026-06-11 08:57:21,983 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on 39341faeea2bb9c2
+2026-06-11 08:57:21,997 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 39341faeea2bb9c2
+2026-06-11 08:57:22,063 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on b06a53fd9ff833e8
+2026-06-11 08:57:22,070 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component b06a53fd9ff833e8
+2026-06-11 08:57:22,078 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on b06a53fd9ff833e8
+2026-06-11 08:57:22,086 MainProcess pixelator.pna.analysis_engine DEBUG    Done  13 tasks      | elapsed:   18.1s
+2026-06-11 08:57:22,088 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on b020112561eb5922
+2026-06-11 08:57:22,090 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component b06a53fd9ff833e8
+2026-06-11 08:57:22,233 MainProcess pixelator.pna.analysis_engine DEBUG    Done  14 tasks      | elapsed:   18.3s
+2026-06-11 08:57:22,235 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on 8ad90ef65bb1d927
+2026-06-11 08:57:24,304 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on b020112561eb5922
+2026-06-11 08:57:24,310 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component b020112561eb5922
+2026-06-11 08:57:24,319 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on b020112561eb5922
+2026-06-11 08:57:24,325 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component b020112561eb5922
+2026-06-11 08:57:24,325 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on 8ad90ef65bb1d927
+2026-06-11 08:57:24,332 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 8ad90ef65bb1d927
+2026-06-11 08:57:24,339 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on 8ad90ef65bb1d927
+2026-06-11 08:57:24,346 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 8ad90ef65bb1d927
+2026-06-11 08:57:24,357 MainProcess pixelator.pna.analysis_engine DEBUG    Done  15 tasks      | elapsed:   20.4s
+2026-06-11 08:57:24,364 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on c77672a2a2cd6f6e
+2026-06-11 08:57:24,386 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on c39ad10cfe4f1e2e
+2026-06-11 08:57:24,388 MainProcess pixelator.pna.analysis_engine DEBUG    Done  16 tasks      | elapsed:   20.4s
+2026-06-11 08:57:26,272 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on c39ad10cfe4f1e2e
+2026-06-11 08:57:26,279 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component c39ad10cfe4f1e2e
+2026-06-11 08:57:26,288 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on c39ad10cfe4f1e2e
+2026-06-11 08:57:26,295 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component c39ad10cfe4f1e2e
+2026-06-11 08:57:26,310 MainProcess pixelator.pna.analysis_engine DEBUG    Done  17 tasks      | elapsed:   22.3s
+2026-06-11 08:57:26,312 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running proximity on 9794e144c01b5dd4
+2026-06-11 08:57:26,414 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on c77672a2a2cd6f6e
+2026-06-11 08:57:26,421 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component c77672a2a2cd6f6e
+2026-06-11 08:57:26,429 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on c77672a2a2cd6f6e
+2026-06-11 08:57:26,436 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component c77672a2a2cd6f6e
+2026-06-11 08:57:26,549 MainProcess pixelator.pna.analysis_engine DEBUG    Done  18 out of  20 | elapsed:   22.6s remaining:    2.5s
+2026-06-11 08:57:26,550 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running proximity on 3c95b17d2498c32e
+2026-06-11 08:57:28,181 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running k-core on 9794e144c01b5dd4
+2026-06-11 08:57:28,185 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 9794e144c01b5dd4
+2026-06-11 08:57:28,189 LokyProcess-1 pixelator.pna.analysis_engine DEBUG    running SVD on 9794e144c01b5dd4
+2026-06-11 08:57:28,193 LokyProcess-1 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 9794e144c01b5dd4
+2026-06-11 08:57:28,264 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running k-core on 3c95b17d2498c32e
+2026-06-11 08:57:28,268 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running k-core analysis on component 3c95b17d2498c32e
+2026-06-11 08:57:28,273 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running SVD on 3c95b17d2498c32e
+2026-06-11 08:57:28,277 LokyProcess-2 pixelator.pna.analysis.graph_noise_analysis DEBUG    Running SVD analysis on component 3c95b17d2498c32e
+2026-06-11 08:57:28,357 MainProcess pixelator.pna.analysis_engine DEBUG    Done  20 out of  20 | elapsed:   24.4s finished
+2026-06-11 08:57:28,370 MainProcess pixelator.pna.analysis.analysis DEBUG    Adding proximity data to PixelDataset
+2026-06-11 08:57:28,420 MainProcess pixelator.pna.analysis.analysis DEBUG    Proximity data added to PixelDataset
+2026-06-11 08:57:28,423 MainProcess pixelator.pna.analysis.graph_noise_analysis DEBUG    Adding k-core analysis data to PNAPixelDataset
+2026-06-11 08:57:28,554 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:28,554 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:28,555 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:28,558 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:28,559 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:28,563 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 20 components and 158 markers
+2026-06-11 08:57:28,565 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:28,565 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 20 components and 158 markers
+2026-06-11 08:57:28,566 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:28,566 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 20 components and 158 markers
+2026-06-11 08:57:28,567 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:28,726 MainProcess pixelator.pna.analysis.graph_noise_analysis DEBUG    Adding SVD analysis data to PNAPixelDataset
+2026-06-11 08:57:28,872 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:28,872 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:28,873 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:28,876 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:28,877 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:28,882 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 20 components and 158 markers
+2026-06-11 08:57:28,883 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:28,883 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 20 components and 158 markers
+2026-06-11 08:57:28,884 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:28,884 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 20 components and 158 markers
+2026-06-11 08:57:28,885 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:29,094 MainProcess pixelator.common.utils DEBUG    Writing parameters file to analysis/sample2.meta.json
+2026-06-11 08:57:29,178 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:29,178 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:29,178 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:29,181 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:29,181 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:29,185 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 20 components and 158 markers
+2026-06-11 08:57:29,186 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:29,186 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 20 components and 158 markers
+2026-06-11 08:57:29,187 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:29,187 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 20 components and 158 markers
+2026-06-11 08:57:29,187 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:29,190 MainProcess pixelator.common.utils INFO     Finished pixelator analysis in 25.29s

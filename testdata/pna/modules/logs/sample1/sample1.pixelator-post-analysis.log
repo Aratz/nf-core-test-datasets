@@ -1,0 +1,60 @@
+2026-06-11 08:57:37,959 MainProcess pixelator.common.utils INFO     Start pixelator post-analysis 0.28.0.post1.dev24+gf8895bf58
+2026-06-11 08:57:37,959 MainProcess pixelator.common.utils INFO     Output .
+2026-06-11 08:57:37,960 MainProcess pixelator.common.utils INFO     Parameters:pxl-file=sample1.analysis.pxl,compute-nbt-probabilities=False,compute-average-degree-per-node-type=True
+2026-06-11 08:57:37,960 MainProcess pixelator_pna.cli.post_analysis INFO     Computing additional QC metrics for components in in PXL file sample1.analysis.pxl
+2026-06-11 08:57:37,960 MainProcess pixelator.common.utils DEBUG    Writing parameters file to post_analysis/sample1.meta.json
+2026-06-11 08:57:38,034 MainProcess pixelator.pna.analysis_engine DEBUG    Using backend LokyBackend with 2 concurrent workers.
+2026-06-11 08:57:38,272 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:38,272 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:38,273 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:38,277 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:38,278 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:38,285 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:38,288 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:40,612 MainProcess pixelator.pna.analysis_engine DEBUG    Done   1 tasks      | elapsed:    2.6s
+2026-06-11 08:57:40,749 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on b8acfa6deae42db4
+2026-06-11 08:57:40,760 MainProcess pixelator.pna.analysis_engine DEBUG    Done   2 tasks      | elapsed:    2.7s
+2026-06-11 08:57:40,762 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 65cc7157f1f915d7
+2026-06-11 08:57:40,776 MainProcess pixelator.pna.analysis_engine DEBUG    Done   3 tasks      | elapsed:    2.7s
+2026-06-11 08:57:40,778 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 8d49b3f29b13355c
+2026-06-11 08:57:40,793 MainProcess pixelator.pna.analysis_engine DEBUG    Done   4 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,794 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 9154b5f5050c2cd7
+2026-06-11 08:57:40,802 MainProcess pixelator.pna.analysis_engine DEBUG    Done   5 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,803 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 62947ac47d077a33
+2026-06-11 08:57:40,813 MainProcess pixelator.pna.analysis_engine DEBUG    Done   6 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,814 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 3bad32d0ead8f977
+2026-06-11 08:57:40,825 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 2906e6f49f424984
+2026-06-11 08:57:40,823 MainProcess pixelator.pna.analysis_engine DEBUG    Done   7 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,835 MainProcess pixelator.pna.analysis_engine DEBUG    Done   8 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,836 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 6a45c696129a6bd3
+2026-06-11 08:57:40,846 MainProcess pixelator.pna.analysis_engine DEBUG    Done   9 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,847 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on f513417dd587c4e5
+2026-06-11 08:57:40,858 MainProcess pixelator.pna.analysis_engine DEBUG    Done  10 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,859 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on f51d1505d1985977
+2026-06-11 08:57:40,867 MainProcess pixelator.pna.analysis_engine DEBUG    Done  11 tasks      | elapsed:    2.8s
+2026-06-11 08:57:40,869 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on ec30c31bd7827611
+2026-06-11 08:57:40,884 MainProcess pixelator.pna.analysis_engine DEBUG    Done  12 tasks      | elapsed:    2.9s
+2026-06-11 08:57:40,886 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 89d31cbe92b25fa1
+2026-06-11 08:57:40,896 MainProcess pixelator.pna.analysis_engine DEBUG    Done  13 tasks      | elapsed:    2.9s
+2026-06-11 08:57:40,897 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 41c9273e801df575
+2026-06-11 08:57:40,907 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on bd6491ab44970711
+2026-06-11 08:57:40,906 MainProcess pixelator.pna.analysis_engine DEBUG    Done  14 tasks      | elapsed:    2.9s
+2026-06-11 08:57:40,915 MainProcess pixelator.pna.analysis_engine DEBUG    Done  15 tasks      | elapsed:    2.9s
+2026-06-11 08:57:40,916 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on ee8c5685de7d4684
+2026-06-11 08:57:40,915 MainProcess pixelator.pna.analysis_engine DEBUG    Batch computation too fast (0.1942217439666782s.) Setting batch_size=2.
+2026-06-11 08:57:40,923 MainProcess pixelator.pna.analysis_engine DEBUG    Done  16 out of  18 | elapsed:    2.9s remaining:    0.4s
+2026-06-11 08:57:40,924 LokyProcess-2 pixelator.pna.analysis_engine DEBUG    running degree-analysis-per-marker-type on 64ec5d0b0fdeb03e
+2026-06-11 08:57:41,239 MainProcess pixelator.pna.analysis_engine DEBUG    Done  18 out of  18 | elapsed:    3.2s finished
+2026-06-11 08:57:41,249 MainProcess pixelator_pna.post_analysis DEBUG    Adding average A/B node degrees data to PNAPixelDataset
+2026-06-11 08:57:41,398 MainProcess pixelator.common.utils INFO     Multiple panel patch versions for same product detected across samples. Attempting to upgrade to the latest.
+2026-06-11 08:57:41,398 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:41,399 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:41,402 MainProcess pixelator.common.utils DEBUG    Creating Antibody panel from AnnData object
+2026-06-11 08:57:41,403 MainProcess pixelator.common.utils DEBUG    Antibody panel from AnnData object created
+2026-06-11 08:57:41,409 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Updating metrics in AnnData object with 18 components and 158 markers
+2026-06-11 08:57:41,411 MainProcess pixelator.pna.pixeldataset.utils DEBUG    Metrics in AnnData object updated
+2026-06-11 08:57:41,411 MainProcess pixelator.common.statistics DEBUG    Computing CLR transformation for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:41,412 MainProcess pixelator.common.statistics DEBUG    CLR transformation computed
+2026-06-11 08:57:41,413 MainProcess pixelator.common.statistics DEBUG    Computing LOG1P normalization for antibody counts with 18 components and 158 markers
+2026-06-11 08:57:41,413 MainProcess pixelator.common.statistics DEBUG    LOG1P transformation computed
+2026-06-11 08:57:41,733 MainProcess pixelator.common.utils INFO     Finished pixelator post_analysis in 3.77s
